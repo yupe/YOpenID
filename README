@@ -7,8 +7,8 @@
 <?php
 'openid' => array(
 	'class'     => 'application.extensions.YOpenIdAuth',
-	'returnTo'  => 'http://sprosiotvechu.ru/openid/index',
-	'trustRoot' => 'http://sprosiotvechu.ru/'
+	'returnTo'  => 'ссылка для возврата с сайта OpenID провайдера',
+	'trustRoot' => 'сайт на котором происходит авторизация'
 ), ?>
 
 Заметка/документация http://allframeworks.ru/blog/Yii/103.html
