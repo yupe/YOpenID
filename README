@@ -2,6 +2,8 @@
 
 Класс-обертка для http://openidenabled.com/php-openid/
 
+Код переехал с гугл кода (http://code.google.com/p/xomaprojects/source/browse/#svn%2Ftrunk%2Fyii%2Fextensions%2FYOpenID)
+
 Конфигурирование (main.php)
 
 <?php
