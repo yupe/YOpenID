@@ -1,0 +1,16 @@
+Авторизация по OpenId для Yii фреймворка
+
+Класс-обертка для http://openidenabled.com/php-openid/
+
+Конфигурирование (main.php)
+
+<?php
+'openid' => array(
+	'class'     => 'application.extensions.YOpenIdAuth',
+	'returnTo'  => 'http://sprosiotvechu.ru/openid/index',
+	'trustRoot' => 'http://sprosiotvechu.ru/'
+), ?>
+
+Заметка/документация http://allframeworks.ru/blog/Yii/103.html
+
+Рабочий пример http://sprosiotvechu.ru/openid/index
